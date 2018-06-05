@@ -17,10 +17,10 @@ int main(void)
         printf("JOGO DA VELHA \n");
         for(i=0;i<3;i++)
         {
-            printf("\t\t     %c \xBA %c \xBA %c\n",Matriz[i][0],Matriz[i][1],Matriz[i][2]);
+            printf("\t\t     %c | %c | %c\n",Matriz[i][0],Matriz[i][1],Matriz[i][2]);
             if(i<3-1)
             {
-                printf("\t\t    ÍÍÍ\xCEÍÍÍ\xCEÍÍÍ\n");
+                printf("\t\t    -----------\n");
             }
         }
 
